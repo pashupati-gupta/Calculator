@@ -4,20 +4,32 @@ body{
     background-size: cover;
 }
 
-.header{
-    border: 0px solid green;
-    width: 100%;
-    height: 95px;
-}
-.header p{
-   
+.head{
     font-size: 30px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    
 }
 
+.head1{
+    font-size: 30px;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.profile{
+    color: black;
+}
+
+.profile:hover{
+    text-decoration: none;
+}
 table{
-    margin-left: 38%;
-    margin-top: 5%;
-    border: 5px solid lightblue;
+    margin-left: 40%;
+    margin-top: 8%;
+    border : 4px solid lightblue;
     box-shadow: 2px 3px 4px blue;
     
 }
@@ -26,6 +38,11 @@ table{
     background-color: white;
     height: 80px;
     border-radius: 4px;
+    
+}
+
+.output:hover{
+    background-color: white;
 }
 td{
     border: 1px solid black;
@@ -35,8 +52,8 @@ td{
     text-align: center;
     box-shadow: 1px 1px 1px black;
     text-shadow: 1px 0px 1px black;
-    opacity: 90%;
     border-radius: 2px;
+    border-spacing: 1px;
 }
 
 td:hover{
